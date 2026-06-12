@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Yahira Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    <span class="desktop-logo">Yahira Studio</span>
+    <span class="mobile-logo">YS</span>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="menu-btn" id="menuBtn">☰</div>
+</nav>
+
+<div class="content">
+
+<!-- ========================
+     HOME
+======================== -->
+<section id="home">
+  <div class="section-inner home-inner">
+
+    <div class="home-text">
+      <div class="fade-up" style="transition-delay:.08s">
+        <span class="section-label">Full-Stack Web Developer</span>
+      </div>
+      <div class="fade-up" style="transition-delay:.18s">
+        <h1 class="display-title">Building<br/>Fast &amp;<br/>Beautiful<br/>Websites</h1>
+      </div>
+      <div class="fade-up" style="transition-delay:.3s">
+        <p class="display-sub">I design and develop modern web experiences — clean code, pixel-perfect UI, and products that actually perform.</p>
+      </div>
+      <div class="cta-row fade-up" style="transition-delay:.42s">
+        <a href="#portfolio" class="btn-primary"><span>See My Work</span><span>→</span></a>
+        <a href="https://wa.me/message/6MF5FBRHGIPXM1" class="btn-secondary">Chat With Me</a>
+      </div>
+      <div class="stats-row fade-up" style="transition-delay:.54s">
+        <div class="stat-item"><span class="stat-num">50+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-item"><span class="stat-num">3yr</span><span class="stat-label">Experience</span></div>
+        <div class="stat-item"><span class="stat-num">100%</span><span class="stat-label">On-Time</span></div>
+      </div>
+    </div>
+
+    <div class="home-visual fade-up float" style="transition-delay:.22s">
+      <div class="hero-badge">
+        <div class="badge-icon">⟨/⟩</div>
+        <div class="badge-label">Yahira</div>
+        <div class="badge-sub">Web Developer</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========================
+     ABOUT
+======================== -->
+<section id="about">
+  <div class="section-inner">
+    <div class="fade-up"><span class="section-label">Who I Am</span></div>
+    <div class="glass-grid">
+      <div class="glass-card about-main-card fade-up" style="transition-delay:.12s">
+        <div class="about-title-col">
+          <h2 class="display-title" style="font-size:clamp(32px,4.5vw,58px)">Code.<br/>Design.<br/>Launch.</h2>
+          <div class="skill-pills" style="margin-top:24px">
+            <span class="skill-pill">Html & CSS</span>
+            <span class="skill-pill">Java Script</span>
+            <span class="skill-pill">CSS/Tailwind</span>
+            <span class="skill-pill">Wordpress</span>
+            <span class="skill-pill">Firebase</span>
+            <span class="skill-pill">PHP</span>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="about-body">I'm a full-stack web developer passionate about building clean, performant, and visually stunning websites. I care deeply about user experience — every project I take on gets thoughtful attention from line one to launch.</p>
+          <p class="about-body">Whether you need a landing page, a full web app, or a complete redesign, I bring the right mix of technical skill and design sensibility to make it happen — fast and right.</p>
+          <a href="https://wa.me/message/6MF5FBRHGIPXM1" class="btn-primary" style="align-self:flex-start">Let's Work Together →</a>
+        </div>
+      </div>
+
+      <div class="glass-card value-card fade-up" style="transition-delay:.26s">
+        <div class="value-icon">⚡</div>
+        <div class="value-title">Performance First</div>
+        <div class="value-desc">Fast load times, clean code, and optimized builds every single time.</div>
+      </div>
+
+      <div class="glass-card value-card fade-up" style="transition-delay:.36s">
+        <div class="value-icon">🎯</div>
+        <div class="value-title">Detail Obsessed</div>
+        <div class="value-desc">Pixel-perfect UI and smooth interactions that feel as good as they look.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     PORTFOLIO
+======================== -->
+<section id="portfolio">
+  <div class="section-inner">
+    <div class="fade-up"><span class="section-label">My Work</span></div>
+    <h2 class="display-title fade-up" style="font-size:clamp(32px,5vw,60px);transition-delay:.1s">Selected<br/>Projects</h2>
+
+    <div class="portfolio-grid">
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.18s">
+        <div class="portfolio-img pt-cyan">🛍️</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">E-Commerce</div>
+          <div class="portfolio-title">ShopFlow Store</div>
+          <div class="portfolio-desc">Full-stack e-commerce with React, Node.js, and Stripe payments integration.</div>
+        </div>
+      </div>
+
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.26s">
+        <div class="portfolio-img pt-purple">📊</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Dashboard</div>
+          <div class="portfolio-title">Analytics Hub</div>
+          <div class="portfolio-desc">Real-time data dashboard built with Next.js and Chart.js for a SaaS client.</div>
+        </div>
+      </div>
+
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.34s">
+        <div class="portfolio-img pt-green">🌱</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Landing Page</div>
+          <div class="portfolio-title">Verdant Brand</div>
+          <div class="portfolio-desc">High-converting landing page with scroll animations and mobile-first design.</div>
+        </div>
+      </div>
+
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.42s">
+        <div class="portfolio-img pt-cyan">📱</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Web App</div>
+          <div class="portfolio-title">TaskFlow App</div>
+          <div class="portfolio-desc">Productivity web app with real-time collaboration using Firebase and React.</div>
+        </div>
+      </div>
+
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.5s">
+        <div class="portfolio-img pt-purple">🏢</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Corporate Site</div>
+          <div class="portfolio-title">Nexus Consulting</div>
+          <div class="portfolio-desc">Multi-page corporate website with CMS integration and SEO optimization.</div>
+        </div>
+      </div>
+
+      <div class="glass-card portfolio-card fade-up" style="transition-delay:.58s">
+        <div class="portfolio-img pt-green">🎵</div>
+        <div class="portfolio-body">
+          <div class="portfolio-tag">Portfolio Site</div>
+          <div class="portfolio-title">Harmonic Artist</div>
+          <div class="portfolio-desc">Artist portfolio with custom audio player and smooth parallax scrolling.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================
+     CONTACT — info only
+======================== -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="fade-up"><span class="section-label">Get In Touch</span></div>
+    <h2 class="display-title fade-up" style="font-size:clamp(32px,5vw,60px);transition-delay:.1s">Let's Work<br/>Together</h2>
+
+    <div class="contact-center fade-up" style="transition-delay:.22s">
+      <div class="glass-card contact-info-card">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Location</span>
+            <span class="contact-item-value">Lahore, Pakistan</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Email</span>
+            <span class="contact-item-value"><a href="mailto:hello@yahira.studio">111.yazah.pk@gmail.com</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-item-text">
+            <span class="contact-item-label">Phone / WhatsApp</span>
+            <span class="contact-item-value"><a href="tel:+923000000000">+92 307 9649008</a></span>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social-btn">🔗 TikTok</a>
+          <a href="#" class="social-btn">🐙 GitHub</a>
+          <a href="#" class="social-btn">☎  Whatsapp</a>
+          <a href="#" class="social-btn">📸 Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /content -->
+
+<footer>
+  <span class="footer-logo">Yahira Studio</span>
+  <p>© 2026 Yahira Studio · Web Developer · Lahore, Pakistan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
